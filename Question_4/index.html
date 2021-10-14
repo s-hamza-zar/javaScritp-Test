@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Compiled and minified CSS -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-beta/css/materialize.min.css"
+    />
+
+    <title>Question 4</title>
+</head>
+<style>
+   .container{
+       padding: 50px;
+   }     
+</style>
+<body>
+    <div class="container">
+    <h3 >Call this API in order to fetch the user data</h3>
+    <div class="center l6" style="margin-bottom: 40px">
+      <button
+        class="btn center waves-effect waves-light"
+        type="submit"
+        name="action"
+        onclick="request()"
+      >
+       Fetch Data
+      </button>
+    </div>
+    <div class="row">
+        <div class="col s12 m6">
+          <div class="card">
+            <div class="card-content">
+              <p id="Website">Website :</p>
+            </div>
+          </div>
+        </div>
+        <div class="col s12 m6">
+          <div class="card">
+            <div class="card-content">
+              <p id="UserName">User Name:</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col s12 m6">
+          <div class="card">
+            <div class="card-content">
+              <p id="Email">Email:</p>
+            </div>
+          </div>
+        </div>
+        <div class="col s12 m6">
+          <div class="card">
+            <div class="card-content">
+              <p id="Phone">Phone:</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <p><strong>For Full API Response Please check Console.</strong></p>
+    </div>
+<script src="./index.js"></script>
+</body>
+</html>
